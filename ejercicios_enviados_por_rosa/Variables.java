@@ -1,11 +1,11 @@
 package ejercicios_enviados_por_rosa;
 
-public class variables {
+public class Variables {
 
 	/*
-	 * Escribe la declaraciÛn m·s apropiada para cada una de las siguientes
-	 * variables. El nombre de cad auna indica el tipo de dato que contendr· y
-	 * servir· para determinar el tipo de dato m·s adecuado en la declaraciÛn de la
+	 * Escribe la declaraci√≥n m√°s apropiada para cada una de las siguientes
+	 * variables. El nombre de cad auna indica el tipo de dato que contendr√° y
+	 * servir√° para determinar el tipo de dato m√°s adecuado en la declaraci√≥n de la
 	 * variable.
 	 * 
 	 */
@@ -83,16 +83,16 @@ public class variables {
 
 	/**
 	 * 
-	 * Si pienso en EspaÒa, pienso en un int. Aunque hay paÌses que incluyen letras
-	 * en sus cÛdigos postales y teniendo en cuenta que no vamos a utilizar
-	 * operadores lÛgicos con los cÛdigos postales, opto por utilizar String en
+	 * Si pienso en Espa√±a, pienso en un int. Aunque hay pa√≠ses que incluyen letras
+	 * en sus c√≥digos postales y teniendo en cuenta que no vamos a utilizar
+	 * operadores l√≥gicos con los c√≥digos postales, opto por utilizar String en
 	 * lugar de int.
 	 * 
 	 */
 
 	private String codigoPostal;
 
-	// gÈnero (valores: H: hombre, M: mujer)
+	// g√©nero (valores: H: hombre, M: mujer)
 
 	private char HOMBRE = 'H';
 	private char MUJER = 'M';
@@ -117,7 +117,7 @@ public class variables {
 	
 	private boolean mayorEdad;
 	
-	// dÌas
+	// d√≠as
 	
 	private int dias;
 	
