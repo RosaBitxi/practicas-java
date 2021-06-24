@@ -13,7 +13,8 @@ public class Variables {
 	// edad
 
 	private byte edad; // aunque solemos usar int
-	//mejor int, o en tal caso un short, pq el byte te llega hasta 32 creo recordar, asiq mi madre ya no entra (66 años) jajajaja
+	//Rosa: mejor int, o en tal caso un short, pq el byte te llega hasta 32 creo recordar, asiq mi madre ya no entra (66 años) jajajaja
+	// Charlie: 127, me llega :-)
 
 	// altura
 
@@ -25,7 +26,8 @@ public class Variables {
 
 	// peso
 
-	private double peso; //ostia, el float te llega para el peso jajaja
+	private double peso; //Rosa: ostia, el float te llega para el peso jajaja
+	// Charlie: ¿Y si es una balanza científica supe exacta?
 
 	// iva
 
@@ -58,7 +60,8 @@ public class Variables {
 
 	// minutos;
 
-	private byte minutos; // no te llega el byte para minutos tampoco
+	private byte minutos; // Rosa: no te llega el byte para minutos tampoco
+				// Charlie: que sí, te juro jajaja
 
 	// matriculaCoche
 
@@ -105,6 +108,7 @@ public class Variables {
 	// talle camisa (valores numericos)
 	
 	private float talle; // quien utiliza un 38.5 de talla de camisa? la 36, la 38, la 40...
+				// jajja tienes razón!
 	
 	// precio
 	
