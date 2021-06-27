@@ -4,7 +4,7 @@ public class Logicas2 {
 	
 	/* Si W, X, Y y Z son variables de tipo boolean
 	 * con valores: W = false, X = true, Y = true y Z = false,
-	 * determina el valor de las siguientes expresiones lógicas:
+	 * determina el valor de las siguientes expresiones lÃ³gicas:
 	 * 
 	 * (Ver figura 3)
 	 * 
@@ -18,12 +18,20 @@ public class Logicas2 {
 	/*
 	 * a) X || Y && X && W || Z = true
 	 * 
+	 //es true, muy bien!
+	 //OJO! PIOJO!
+	 // tienen prioridad los && (AND) sobre los || (OR)
+	 
+	 // true || true && true && false || false = true || true && false || false = true || false || false = true || false = true
+	 
 	 * true o 
 	 * true y true y false, o sea, false,
 	 * es true,
 	 * o false es true
 	 * 
 	 * b) X && !Y && !X || !W && Y = true
+	 
+	 //muy bien!
 	 * 
 	 * (true y noTrue y noTrue es false)
 	 * o (noFalse y true es true)
@@ -31,6 +39,8 @@ public class Logicas2 {
 	 * 
 	 * 
 	 * c) !(W || !Y) && X || Z = true
+	 
+	 //muy bien!
 	 * 
 	 * true o 
 	 * false, porque niego:
@@ -38,17 +48,23 @@ public class Logicas2 {
 	 * entonces resulta true
 	 *  
 	 * d) X && Y && W || Z || X = true
+	 
+	 //muy bien!
 	 * 
 	 * (true y true y false es false)
 	 * o (false) 
 	 * o true es true
 	 * 
 	 * e) Y || !(Y || Z && W) = true
+	 
+	 //muy bien!
 	 * 
 	 * true o no(true o (false y false=false)= true
 	 * 
 	 * 
 	 * f) !X && Y && (!Z || !X) = false
+	 
+	 //muy bien!
 	 * 
 	 * noTrue y true es false y
 	 * (noFalse o noTrue es true)
