@@ -7,7 +7,7 @@ public class Logicas {
 	 * 
 	 * X = true Y = false Z = true
 	 * 
-	 * Determina el valor de las siguientes expresiones lógicas:
+	 * Determina el valor de las siguientes expresiones lÃ³gicas:
 	 * 
 	 * (Ver figura 3)
 	 * 
@@ -25,25 +25,32 @@ public class Logicas {
 	/*
 	 * a) (X && Y) || (X && Z) = true porque true y false = false y false o true es
 	 * igual a true.
+	 //muy bien!
 	 * 
 	 * b) (X || !Y) && (!X || Z) = true
+	 //muy bien!
 	 * 
 	 * true o noFalse(o sea true) = true y false o true = true
 	 *
 	 * c) X || Y && Z = true
+	 //muy bien!
 	 * 
 	 * true o (false y true = false) = true 
 	 * 
 	 * d) !(X || Y) && Z = true
+	 //esta es false
+	 //!(true || false) && true = !(true) && true = false && true = false
 	 * 
 	 * true o false es true pero lo niega, entonces es false
 	 * y true es false.
 	 * 
 	 * e) X || Y || X && !Z && !Y = true
+	 //muy bien!
 	 * 
 	 *  true o false es true y noFalse y noFalse es true.
 	 *  
 	 *  f) !X || !Y || Z && X && !Y = true 
+	 //muy bien!
 	 *  
 	 *  noTrue o noFalse es true,
 	 *  o true es true
