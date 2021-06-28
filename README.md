@@ -1,4 +1,4 @@
-Este repositorio contiene prácticas que estoy haciendo siguiendo el curso:
+Este repositorio contiene prácticas que estoy haciendo siguiendo el curso:<br>
 **Curso de Java desde 0" - Canal Píldoras Informáticas** publicado en Youtube.
 
 ***Enlace:
