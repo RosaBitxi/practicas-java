@@ -2,7 +2,7 @@ package _010_poo;
 
 import java.util.Date;
 
-// Un único fichero con varias clases
+// Modelar Figura1.PNG en un único fichero con varias clases
 
 public class UsoEmpleado {
 
