@@ -9,8 +9,6 @@ public class UsoEmpleado2Arrays {
 
 	public static void main(String[] args) {
 		
-		Empleado empleado1=new Empleado("Cosme Fulanito",1000,2021,4,2);
-
 		Empleado2[] arrayEmpleados= new Empleado2[3];
 		arrayEmpleados[0]=new Empleado2("Cosme Fulanito",1000,2021,4,2);
 		arrayEmpleados[1]=new Empleado2("Lalo Landa",3000,2014,03,02);
