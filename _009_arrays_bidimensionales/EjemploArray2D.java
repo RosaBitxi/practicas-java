@@ -3,8 +3,7 @@ package _009_arrays_bidimensionales;
 public class EjemploArray2D {
 
 	/*
-	 * Convertir la planilla de calculo adjunta "saldoIntereses.ods" a lenguaje
-	 * Java.
+	 * Convertir a lenguaje Java la planilla de calculo adjunta "saldoIntereses.ods"
 	 * 
 	 */
 
