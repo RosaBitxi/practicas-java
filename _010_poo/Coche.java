@@ -82,7 +82,8 @@ public class Coche {
 		int pesoCarroceria;
 		pesoCarroceria = 500;
 		pesoTotal = pesoPlataforma + pesoCarroceria;
-		if (asientosCuero == true) {
+		// Esto es lo mismo que if(asientosCuero==true){
+		if (asientosCuero) {
 			pesoTotal = pesoTotal + 50;
 		}
 		if (climatizador = true) {

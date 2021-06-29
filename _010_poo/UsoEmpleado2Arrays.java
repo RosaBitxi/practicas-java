@@ -5,32 +5,40 @@ import java.util.GregorianCalendar;
 
 // Modelar Figura1.PNG en un único fichero con varias clases
 
-public class UsoEmpleado {
+public class UsoEmpleado2Arrays {
 
 	public static void main(String[] args) {
 		
 		Empleado empleado1=new Empleado("Cosme Fulanito",1000,2021,4,2);
-		Empleado empleado2=new Empleado("Lalo Landa",3000,2014,03,02);
-		Empleado empleado3=new Empleado("Esteban Quito",2500,1995,04,10);
-		empleado1.subeSueldo(5);
-		empleado2.subeSueldo(5);
-		empleado3.subeSueldo(5);
-		System.out.println("Nombre: "+empleado1.mostrarNombre()+"\nSueldo: "+empleado1.mostrarFechaAltaContrato());
-		System.out.println("Nombre: "+empleado2.mostrarNombre()+"\nSueldo: "+empleado2.mostrarFechaAltaContrato());
-		System.out.println("Nombre: "+empleado3.mostrarNombre()+"\nSueldo: "+empleado3.mostrarFechaAltaContrato());
 
+		Empleado2[] arrayEmpleados= new Empleado2[3];
+		arrayEmpleados[0]=new Empleado2("Cosme Fulanito",1000,2021,4,2);
+		arrayEmpleados[1]=new Empleado2("Lalo Landa",3000,2014,03,02);
+		arrayEmpleados[2]=new Empleado2("Esteban Quito",2500,1995,04,10);
+	
+		for (int i = 0; i < arrayEmpleados.length; i++) {
+		
+			arrayEmpleados[i].subeSueldo(5);
+			
+		}
+		
+		for (int i = 0; i < arrayEmpleados.length; i++) {
+			System.out.println("Nombre: "+arrayEmpleados[i].mostrarNombre()+"\nSueldo: "+arrayEmpleados[i].mostrarSueldo()+"\nFecha de alta: "+arrayEmpleados[i].mostrarFechaAltaContrato()+"\n");
+			
+		}
+		
 	}
 
 }
 
-class Empleado {
+class Empleado2 {
 	
 	private String nombre;
 	private double sueldo;
 	private Date fechaAltaContrato;
 	 
 
-	public Empleado(String nombre, double sueldo, int anio, int mes, int dia) {
+	public Empleado2(String nombre, double sueldo, int anio, int mes, int dia) {
 		this.nombre=nombre;
 		this.sueldo=sueldo;
 		//mes-1 porque comienza en cero
